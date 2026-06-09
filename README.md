@@ -31,14 +31,3 @@
 
 ---
 
-## 🎯 Roadmap обучения
-
-```mermaid
-graph LR
-    A[Python Basics] --> B[Network Scanner]
-    B --> C[Hash Cracker]
-    C --> D[Web Scanner]
-    D --> E[Wireshark/TCP]
-    E --> F[Metasploit]
-    F --> G[TryHackMe/HTB]
-    G --> H[eJPT Certification]
