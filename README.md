@@ -1,33 +1,32 @@
-# 🛡️ Cyber Security Journey
+# 🛡️ Лаборатория кибербезопасности
 
-<div align="center">
+Инструменты для сетевого анализа, криптографии и веб-разведки.
 
-[![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://python.org)
-[![Linux](https://img.shields.io/badge/OS-Linux%20%7C%20WSL-orange.svg)](https://ubuntu.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black.svg)](https://github.com/dubkow14-cell)
-
-**Документация моего пути в кибербезопасности**
-
-</div>
+**Стек:** Python, Linux (WSL), Git, Wireshark.
 
 ---
 
-## 👨‍💻 Обо мне
+## 📂 Проекты
 
-Привет! Я **REDRABBIT** — начинающий специалист по кибербезопасности.  
-Этот репозиторий содержит все проекты, которые я создаю в процессе обучения.
-
-**Фокус:** Python, сетевые технологии, веб-безопасность, криптография.
-
----
-
-## 📂 Мои проекты
-
-| Проект | Описание | Ключевые технологии |
-|--------|----------|---------------------|
-| 🔍 [Port Scanner](https://github.com/dubkow14-cell/port_scanner) | Многопоточный сканер портов с определением сервисов | Python, sockets, threading |
-| 🔓 [Hash Cracker](https://github.com/dubkow14-cell/hash-cracker) | Словарная атака на хеши паролей (MD5, SHA1, SHA256, SHA512) | Python, hashlib, криптография |
-| 🌐 [Web Scanner](https://github.com/dubkow14-cell/web-scanner) | Поиск скрытых директорий на веб-сайтах | Python, requests, многопоточность |
+| Проект | Что делает | Фишки |
+|--------|------------|-------|
+| [Port Scanner](https://github.com/dubkow14-cell/port_scanner) | Сканер TCP-портов | Многопоточность, определение сервисов, цветной вывод |
+| [Hash Cracker](https://github.com/dubkow14-cell/hash-cracker) | Словарная атака на хеши | Автоопределение алгоритма, поддержка соли, прогресс-бар |
+| [Web Scanner](https://github.com/dubkow14-cell/web-scanner) | Поиск скрытых директорий | 80+ путей, обработка редиректов |
+| [URL Scanner](https://github.com/dubkow14-cell/url-scanner) | Проверка ссылок на фишинг | HTTPS, подозрительные домены, оценка риска |
 
 ---
 
+## ⚡ О чём это говорит
+
+- Работающие инструменты, а не «Hello World»
+- Понимание TCP/IP, HTTP, криптографии
+- Чистый код с обработкой ошибок
+
+---
+
+## 🎯 Что дальше
+
+- Низкоуровневый эксплойт (C)
+- Исследование ядра Linux
+- Фаззинг
